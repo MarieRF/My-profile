@@ -1,0 +1,148 @@
+#titre, h2 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+body{
+  font-family: 'Arial', sans-serif;
+  font-size: 13px;
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/00h0tVu/4k-time-lapse-the-clouds-moving-over-the-snow-mountain-at-mthook-new-zealand_n1x6lqen__F0000.png");
+  background-size:cover;
+}
+
+#titre {
+  background-color:#3366aa;
+  color:white;
+  margin-left:300px;
+  margin-right:300px;
+  padding-top:7px;
+  padding-bottom:10px;
+  border-radius: 4px;
+}
+
+#photo {
+  margin-top:25px;
+  border-radius: 10%;
+  border-style:solid;
+  border-width: 2px;
+  border-color: rgba(51, 102, 170, 0.2);
+  height:170px;
+}
+
+#intro {
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:15px;
+  padding-bottom:20px;
+  text-align:justify;
+}
+
+.hobby, #rs {
+  margin-left:300px;
+  margin-right:300px;
+  margin-top:25px;
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:17px;
+  padding-bottom:20px;
+  text-align:justify;
+  border-radius: 4px;
+  border:0.5px solid rgba(51, 102, 170, 0.2);
+  box-shadow: 5px 5px 15px rgb(0,0,0,0.1);
+  background-color: rgba(239, 239, 239, 0.7);
+}
+
+h2 {
+  color:#3366aa;
+  background-color:rgba(239, 239, 239, 0.8);
+  border:1px solid rgba(51, 102, 170, 0.2);
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+
+a {
+  color:rgb(51, 102, 170);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color:#99aadd;
+  text-decoration: none;
+}
+
+.fa-pen-fancy, .fa-linkedin, .fa-facebook-square, .fa-instagram{
+  font-size: 20px;
+  margin-right:10px;
+}
+
+#rs {
+  text-align: center;
+}
+
+#bouton {
+  border:1px solid rgba(51, 102, 170, 0.2);
+  background-color:rgba(239, 239, 239, 0.8);
+  width:450px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:5px;
+  margin-bottom:45px;
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size:18px;
+  letter-spacing: 2px;
+  box-shadow: 5px 5px 15px rgb(0,0,0,0.1);
+}
+
+#footer {
+  margin-top:40px;
+  color:white;
+}
+
+#menu {
+  margin-top:50px;
+  margin-bottom:20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom:13px;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+  font-size: 15px;
+  width:850px;
+  border-bottom:1px solid rgba(51, 102, 170, 0.2);
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  font-family: 'Arial', serif;
+  font-size: 12px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+input, textarea {
+  font: 1em,  'Arial', serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: .5em;
+  font-family: 'Arial', serif;
+  font-size: 12px;
+}

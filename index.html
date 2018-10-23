@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <link href="style.css" rel="stylesheet">
+    <title>Marie Rollet-Flaubert</title>
+		<meta name="CV Marie Rollet-Flaubert" content="Découvrez le CV de Marie Rollet-Flaubert">
+		<meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Playfair+Display|Source+Serif+Pro" rel="stylesheet">
+	</head>
+
+	<body>
+    <div>
+		  <h1 id="titre">
+		    Hey, c'est Marie !
+		  </h1>
+    </div>
+
+    <div id="menu">
+      <center>
+      <a href="#intro">Présentation</a> | <a href="#bouton">CV complet</a> | <a href="#1">Photographie</a> | <a href="#2">Randonnée</a> | <a href="#3">Bricolage</a> | <a href="#rs">Réseaux sociaux & contact</a>
+      </center>
+    </div>
+
+    <div>
+      <center><img src="Images/ID.jpg" id="photo"></center>
+    </div>
+
+		<div id="intro">
+      <center>
+        <p>
+          Étudiante à l'Institut Mines-Télécom Business School, spécialité Marketing Digital,
+          <br>
+          je travaille en tant que <b>Digital Marketing Analyst</b> chez <a href="www.allurion.com">Allurion France</a>.
+          <br>
+          Avec notre ballon gastrique révolutionnaire, <b>Elipse</b>, on aide les personnes en surpoids et obèses à perdre du poids et retrouver la santé !
+          <br><br>
+          Je rentre d'un an au <b>Québec</b>, plongez dans l'aventure en lisant <a href="www.ehtabarnak.com"> mon journal de bord</a> ⚜
+          <br><br>
+        </p>
+        </center>
+    </div>
+
+    <div id="bouton">
+      <center>
+        <a href="https://www.linkedin.com/in/marierolletflaubert/">Expériences & compétences détaillées</a>
+      </center>
+    </div>
+
+		<div class="hobby" id="1">
+      <h2>
+		    La photographie <i class="fas fa-camera-retro"></i></i>
+		  </h2>
+			<p>
+        Bien que j'aie toujours aimé prendre des photos, la photographie a pris une part réellement importante dans ma vie depuis que j'ai eu la chance d'avoir un reflex. Capturer des moments ou des lieux particuliers et pouvoir s'en souvenir à jamais me touche beaucoup.
+        <br><br>
+        Mon genre de prédilection : <b>les paysages, autant urbains que naturels</b>. J'aime aussi capturer les gens dans leur spontanéité, mais j'ai encore du pain sur la planche au niveau de la photographie humaine <i>(et même tout court !)</i>.
+			</p>
+    </div>
+
+    <div class="hobby" id="2">
+      <h2>
+        La randonnée <i class="fas fa-mountain"></i>
+      </h2>
+      <p>
+        Née et élevée dans les Alpes, impossible pour moi de ne pas aimer les montagnes et de ne pas en profiter. Dès que les beaux jours reviennent, vous me trouverez sûrement en train de <b>gambader en altitude</b>... avec également mon appareil photo !
+        <br><br>
+        En hiver, on range les chaussures et on sort les <b>skis</b> : pratiquante depuis que je sais marcher, j'ai la chance d'avoir pu commencer par pratiquer un ski traditionnel, mais aussi la course, et je me suis tournée depuis quelques années vers le freeride.
+      </p>
+    </div>
+
+    <div class="hobby" id="3">
+      <h2>
+        Le bricolage <i class="fas fa-hammer"></i>
+      </h2>
+      <p>
+        <b>Créer quelque chose de ses mains, toucher la matière, la façonner à son envie...</b> Quoi de plus gratifiant que de partir de zéro et inventer un objet ? J'adore bricoler, essayer d'être créative, et surtout utiliser mes dix doigts autant que possible.
+        <br><br>
+        Le super bonus de chez mes parents : <b>avoir une grange entière à rénover</b>, dont une partie a déjà été aménagée en <b>atelier</b>. Espace, établis, outils et fournitures en tout genre... Je dois les remercier pour ce lieu de rêve qui me permet de me ressourcer et d'exprimer ma créativité dès que je rentre, tout en imaginant parfois des aménagements pour rendre la grange vivable.
+      </p>
+    </div>
+
+    <div id="rs">
+      <h2>
+        Je suis un peu partout sur Internet
+      </h2>
+        <a href="https://www.ehtabarnak.com"><i class="fas fa-pen-fancy"></i></a>
+        <a href="https://www.facebook.com/ehtabarnak.leblog/" target="_blank"><i class="fab fa-facebook-square"></i>Eh tabarnak! - le blog</a>
+        <a href="https://www.linkedin.com/in/marierolletflaubert/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/marie.r.f/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/marie.juuanaa" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <br>
+        <br>
+        <br>
+<!-- NOTE : je sais qu'il faut une deuxième page pour réceptionner les données du formulaire et que donc logiquement c'est impossible de le faire correctement avec nos connaissances actuelles, mais je voulais mettre un formulaire de contact pour la beauté de la page ! Soyez indulgent svp :D -->
+        <form action="/ma-page-de-traitement" method="post">
+          <div id="contact-form">
+            <label for="name">Prénom, nom</label>
+            <input type="text" id="nom" name="user_name">
+          </div>
+          <br>
+          <div>
+            <label for="mail">Adresse email</label>
+            <input type="email" id="mail" name="user_mail">
+          </div>
+          <br>
+          <div>
+            <label for="msg">Message</label>
+            <textarea id="msg" name="message"></textarea>
+          </div>
+        </form>
+        <br>
+          <div class="button">
+            <button type="submit">Envoyer le message</button>
+          </div>
+    </div>
+
+    <div id="footer">
+      <center>
+        <p>
+          Copyright MRF - Octobre 2018
+        </p>
+      </center>
+    </div>
+	</body>
+</html>
